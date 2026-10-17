@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl" class="js-pending">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="News and events from Jamia Chishtia Razvia Zia-ul-Quran, Rahwali, Gujranwala.">
+  <title>News &amp; Events | Jamia Chishtia Razvia Zia-ul-Quran</title>
+  <script>
+    (function () {
+      var l = localStorage.getItem('language'); if (l !== 'en') l = 'ur';
+      document.documentElement.lang = l; document.documentElement.dir = l === 'ur' ? 'rtl' : 'ltr';
+      setTimeout(function () { document.documentElement.classList.remove('js-pending'); }, 1500);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="assets/images/jamia-logo.png">
+</head>
+<body data-page="news" data-title="titleNews">
+  <div id="site-header"></div>
+
+  <header class="page-header">
+    <h1 data-translate="newsTitle">News &amp; Events</h1>
+    <p data-translate="newsSubtitle">Latest from Jamia Chishtia Razvia Zia-ul-Quran</p>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="news-list">
+        <article class="news-card">
+          <div class="news-date" data-translate="news1Date">December 2025</div>
+          <div>
+            <h3 data-translate="news1Title">Fitness centre opened for students</h3>
+            <p data-translate="news1Text"></p>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="news-date" data-translate="news2Date">June 2024</div>
+          <div>
+            <h3 data-translate="news2Title">Chehlum of Allama Hanif Chishti</h3>
+            <p data-translate="news2Text"></p>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="news-date" data-translate="news3Date">November 2022</div>
+          <div>
+            <h3 data-translate="news3Title">Qirat, Naat and Azan competitions</h3>
+            <p data-translate="news3Text"></p>
+          </div>
+        </article>
+      </div>
+      <p class="news-source" data-translate="newsSource"></p>
+    </div>
+  </section>
+
+  <section class="section section--dark cta">
+    <div class="container">
+      <h2 data-translate="followUs">Follow us for more updates</h2>
+      <div class="hero-buttons" style="margin-top: 20px;">
+        <a data-site-link="facebook" href="#" target="_blank" rel="noopener" class="btn btn--gold"><i class="fab fa-facebook-f"></i> <span data-translate="facebook">Facebook</span></a>
+        <a data-site-link="youtube" href="#" target="_blank" rel="noopener" class="btn btn--outline"><i class="fab fa-youtube"></i> <span data-translate="youtube">YouTube</span></a>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
