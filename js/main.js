@@ -150,5 +150,18 @@ document.addEventListener('DOMContentLoaded', () => {
     navMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navMenu.classList.remove('open')));
   }
 
+  document.querySelectorAll('[data-copy]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const label = btn.querySelector('span');
+      try {
+        await navigator.clipboard.writeText(btn.dataset.copy);
+        label.textContent = t('copied', getLang());
+      } catch (e) {
+        label.textContent = btn.dataset.copy;
+      }
+      setTimeout(() => { label.textContent = t('copyIban', getLang()); }, 2500);
+    });
+  });
+
   document.documentElement.classList.remove('js-pending');
 });

@@ -8,7 +8,7 @@ Bilingual (Urdu / English) static website for **Jamia Chishtia Razvia Zia-ul-Qur
 |------|---------|
 | `index.html` | Home: hero, programs, about preview, latest news, admissions call-to-action |
 | `about.html` | Mission, values, founder and leadership, facilities |
-| `programs.html` | Hifz, Dars-e-Nizami, F.A.-level education, computer education, student life, admissions |
+| `programs.html` | Hifz, Dars-e-Nizami, B.A.-level education, computer and AI education, student life, admissions |
 | `news.html` | News and events |
 | `contact.html` | Address, phone, social links, map |
 
